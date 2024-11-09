@@ -124,10 +124,6 @@ and (max-device-width : 736px) {
     .footer{
         visibility: hidden;
     }
-
-    .location {
-        visibility: hidden;
-    }
 }
 
 
