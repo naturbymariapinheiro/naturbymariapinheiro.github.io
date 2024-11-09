@@ -27,6 +27,11 @@ html, body {
     text-align: center;
 }
 
+.pic {
+    height: 200px;
+    width: 200px;
+}
+
 .name {
     font-weight: bold;
     margin: 15px 0 5px;
@@ -122,6 +127,10 @@ and (max-device-width : 736px) {
     }
 
     .footer{
+        visibility: hidden;
+    }
+
+    .location {
         visibility: hidden;
     }
 }
