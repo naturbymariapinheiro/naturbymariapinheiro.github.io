@@ -28,8 +28,8 @@ html, body {
 }
 
 .pic {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
 }
 
 .name {
@@ -122,8 +122,8 @@ and (max-device-width : 736px) {
         text-align: center;
     }
     .pic {
-        height: 320px;
-        width: 320px;
+        height: 300px;
+        width: 300px;
     }
 
     .footer{
