@@ -27,11 +27,6 @@ html, body {
     text-align: center;
 }
 
-.pic {
-    height: 300px;
-    width: 300px;
-}
-
 .name {
     font-weight: bold;
     margin: 15px 0 5px;
