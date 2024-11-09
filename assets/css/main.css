@@ -1,0 +1,138 @@
+html, body {
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    background-color: #d17d7d;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 96%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.left-content {
+    display: inline-block;
+}
+
+.right-content {
+    display: inline-block;
+    text-align: center;
+}
+
+.pic {
+    height: 300px;
+    width: 300px;
+}
+
+.name {
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+.panel-cover_divider {
+    width: 80%;
+    margin: 10px auto;
+    border-top: 1px solid black;
+}
+
+.panel-cover_divider_secondary {
+    width: 50%;
+}
+
+.work {
+    color: #ffffff;
+    font-weight: normal;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.location {
+    color: #ffffff;
+    font-weight: normal;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.social-media {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.social-media > .item {
+    display: inline-block;
+    padding: 0 2px;
+}
+
+
+a {
+    color: #ffffff;
+}
+
+.btn {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 30px;
+    height: 50px;
+    line-height: 42px;
+    width: 50px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+    transform:scale(1.3,1.3);
+    -webkit-transform:scale(1.3,1.3);
+    -moz-transform:scale(1.3,1.3);
+}
+
+.footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 12px;
+    height: 4%;
+}
+
+@media only screen
+and (max-device-width : 736px) {
+    .container {
+        display: grid;
+        margin: 0 auto;
+    }
+    .left-content, .right-content {
+        display: block;
+        text-align: center;
+    }
+    .pic {
+        height: 320px;
+        width: 320px;
+    }
+
+    .footer{
+        visibility: hidden;
+    }
+
+    .location {
+        visibility: hidden;
+    }
+}
+
+
+
+
