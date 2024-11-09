@@ -48,14 +48,14 @@ html, body {
 }
 
 .work {
-    color: #ffffff;
+    color: white;
     font-weight: normal;
     margin: 5px 0;
     font-size: 1em;
 }
 
 .location {
-    color: #ffffff;
+    color: white;
     font-weight: normal;
     margin: 5px 0;
     font-size: 1em;
@@ -74,11 +74,11 @@ html, body {
 
 
 a {
-    color: #ffffff;
+    color: white;
 }
 
 .btn {
-    color: #ffffff;
+    color: white;
     display: inline-block;
     font-size: 30px;
     height: 50px;
